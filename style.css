@@ -1,0 +1,118 @@
+/* general styles */
+
+
+html,body{
+  height: 100%;
+  width:100%;
+}
+
+ .img-border {
+   border: 1px solid #ffffff;
+   border-radius: 1%;
+  }
+
+
+/*padded section */
+.pad-section{
+  padding:50px 0;
+}
+
+.pad-section img{
+  width:100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align:center;
+  vertical-align:middle;
+}
+.text-vcenter h1{
+  font-family:Quicksand, serif;
+  font-size: 5.5em;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+#home{
+ background:url("https://www.dropbox.com/s/1ebyziu5plef6a6/home1.png?raw=1") no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {}
+
+
+#portifolio{
+  background-color:#B69E82;
+  color: #ffffff;
+}
+
+#portifolio h2{
+  font-family:Quicksand, serif;
+  font-weight: 500;
+}
+#portifolio .glyphicon{
+  border: 2px solid #ffffff;
+  border-radius: 5%;
+  display: inline-block;
+  font-size: 60px;
+  height: 220px;
+  line-height: 220px;
+  text-align: center;
+  vertical-align: middle;
+  width: 220px;
+}
+
+#contato{
+  background: url(https://www.dropbox.com/s/ha9aw9o1vlk4j80/montreal.jpg?raw=1) no-repeat center center fixed;
+  display:table;
+  height: 400px;
+  position: relative;
+  width:100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#contato .panel{
+  opacity: 0.9;
+  
+}
+
+footer {
+  padding: 10px 0;
+}
+footer .glyphicon{
+  color: #333333;
+  font-size: 60px;
+}
+
+footer .glyphicon :hover{
+  color: #306d9f;
+}
+
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+/* Gray Scale */
+.hover08 figure img {
+	-webkit-filter: grayscale(55%);
+	filter: grayscale(55%);
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover08 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
